@@ -1,0 +1,17 @@
+{% extends '_base.html' %}
+
+{% block header_content %}
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+
+                <h1>{% block title %}TODO{% endblock %}</h1>
+                <p class="byline"> By {% block author %}TODO{% endblock %}</a> | {% block datetime %}TODO{% endblock %}</p>
+            </div>
+        </div>
+    </div>
+</header>
+{% endblock %}
+    
+{% block wide_content %}TODO{% endblock %}
